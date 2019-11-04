@@ -1,0 +1,61 @@
+Object: Dendrobium
+
+Attributes
+flowerNum: 0
+flowerColor: "purple"
+scientificName: "Denrobium"
+climateZone: ["Zone A","Zone B","Zone C","Zone D"]
+stemType: "Monopodial"
+rootDepth: 20
+rootGrowth: 3
+stemHeight: 33
+stemGrowth: 4
+matureHeight: 40
+unit: "cm"
+moistureLevel: 20
+maxMoisture: 40
+dehydrated: true
+mature: true
+
+
+Methods:
+
+addWater: moisureLevel = maxMoisture
+addFlower: flowerNum = 1
+changFlowerColor: color = "white"
+growth: rootDepth = 20+3, 33= 33+4
+isMature: mature = false
+changeStep: stemType = "Sympodial"
+
+
+---------------------
+
+Object: Mothers Tongue
+
+Attributes:
+
+flower:true
+flowerColor: "white"
+scientificName: "Sansavaria"
+climateZone: ["Zone A","Zone B","Zone C","Zone D"]
+stemType: "Monopodial"
+rootDepth: 10
+rootGrowth: 2
+stemHeight: 15
+stemGrowth: 2
+matureHeight: 20
+unit: "cm"
+moistureLevel: 20
+maxMoisture: 40
+dehydrated: true
+mature: true
+
+
+Methods:
+
+addWater: moisureLevel = maxMoisture
+addFlower: flowerNum = 1
+changFlowerColor: color = "purple"
+growth: rootDepth = 10+2, stemHeight 15= 15+2
+isMature: mature = false
+changeStem: stemType = "Sympodial"

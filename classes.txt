@@ -1,0 +1,29 @@
+Object: Plant
+
+Attributes:
+
+flowerNum: (int)
+flowerColor: (string)
+scientificName: (string)
+climateZone: (array)
+stemType: (string)
+rootDepth: (int)
+rootGrowth: (int)
+stemHeight: (int)
+stemGrowth: (int)
+matureHeight: (int)
+unit: (string)
+moistureLevel: (int)
+maxMoisture: (int)
+dehydrated: (bool)
+mature: (bool)
+
+
+Methods:
+
+addWater: (increases moistureLevel to Max)
+addFlower: (Changes flowerNum)
+changeFlowerColor: (changes flowerColor)
+growth: (increases the rootDepth and stemHeight by the groth attribute)
+isMature: (checks height vs maxheight to see if it is mature adds flower)
+changeStep: (Genetic modification to StemType)
